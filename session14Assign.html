@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Profile</title>
+    <!--Link to Favicon File-->
+    <link rel="icon" type="image/png" href="assets/fav.png">
+    <style>
+        .infoicons{
+            color: yellowgreen;
+        }
+            .header{
+                background-color: rgb(177, 250, 250);
+                padding: 5px;
+            }
+        
+        .info {
+            color: rgb(185, 11, 185);
+            font-weight: bold;
+        }
+
+        #resume {
+            color: orange;
+            font-style: italic;
+            font-weight: bold;
+        }
+
+        .heading {
+            color:#f53b57;
+            font-weight: bolder;
+            background-color: #a3f5ce;
+            font-family: poppins;
+        }
+            .skills{
+                font-style: italic;
+                text-decoration: underline;
+                color: green;
+                font-weight: bold;
+            }
+        .tools{
+            background-color: rgb(235, 235, 116);
+        }
+        #home{
+            border: solid;
+            border-color: green;
+            border-width: 2px;
+            background-color: rgb(245, 243, 239);
+        }
+        #techStack{
+            border: solid;
+            border-color: green;
+            border-width: 2px;
+            background-color: rgb(245, 243, 239);
+        }
+        #projects{
+            border: solid;
+            border-color: green;
+            border-width: 2px;
+            background-color: rgb(245, 243, 239);
+        }
+    </style>
+</head>
+
+<body>
+    <!--Header Section-->
+    <header class="header">
+        <p>
+            <span class="infoicons"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                    class="bi bi-person-fill" viewBox="0 0 16 16">
+                    <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6" />
+                </svg></span>
+            <span class="info">Amitkumar Kamble</span> &nbsp;&nbsp;
+            <span class="infoicons"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                    class="bi bi-telephone-fill" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                        d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z" />
+                </svg></span>
+            <span class="info">1234 5678 90</span> &nbsp;&nbsp;
+                <span class="infoicons"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                        fill="currentColor" class="bi bi-envelope-fill" viewBox="0 0 16 16">
+                        <path
+                            d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414zM0 4.697v7.104l5.803-3.558zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586zm3.436-.586L16 11.801V4.697z" />
+                    </svg></span>
+            <span class="info">abc@gmail.com</span>&nbsp;&nbsp;
+            <a href="assets/resume.pdf" download="resume.pdf" id="resume">
+                <span class="infoicons"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-file-arrow-down-fill" viewBox="0 0 16 16">
+                        <path
+                            d="M12 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2M8 5a.5.5 0 0 1 .5.5v3.793l1.146-1.147a.5.5 0 0 1 .708.708l-2 2a.5.5 0 0 1-.708 0l-2-2a.5.5 0 1 1 .708-.708L7.5 9.293V5.5A.5.5 0 0 1 8 5" />
+                    </svg></span>RESUME</a>
+        </p>
+    </header>
+    <!--Navigation Section-->
+    <br>
+    <nav>
+        <a href="#home">HOME</a> &nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="#techStack">TECH STACK</a> &nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="#projects">PROJECTS</a> &nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="#education">EDUCATION</a> &nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="personalDetails.html" target="_blank">PERSONAL DETAILS</a> &nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="others.html" target="_blank">OTHERS</a>
+    </nav>
+    <!--Main Section-->
+    <section>
+        <!--Home Section-->
+        <br>
+        <section id="home">
+            <h2 class="heading">&nbsp;Professional Summary</h2>
+            <ul>
+                <li>
+                    Having 1 year of experience in developing Single page Web Applications
+                    using <span class="skills">Angular 8, HTML5, CSS3, Bootstrap5, JavaScript, TypeScript</span>
+                </li>
+                <li>
+                    Experience on working with version control system - <span class=" tools">GIT &amp; GitHub</span>
+                </li>
+                <li>Experience working with JIRA for user stories and bug tracking</li>
+                <li>
+                    Strong Debugging &amp; Troubleshooting code experience using Chrome
+                    Developer Tool
+                </li>
+                <li>Working Experience on ID's like <span class=" tools">VS Code &amp; Notepad++</span></li>
+                <li>Good working experience under Agile methodologies environment</li>
+                <li>
+                    Experience using Chrome Developer Tool for debugging &amp;
+                    Troubleshooting the code
+                </li>
+                <li>Knowledge of <span class="tools">NodeJS</span></li>
+                <li>Ability to work with people at all levels in the program</li>
+            </ul>
+            <!--Technology Stack Section-->
+        </section>
+        <hr>
+        <section id="techStack">
+            <h2 class="heading">&nbsp;Technology Stack</h2>
+            <table border="1">
+                <tbody>
+                    <tr>
+                        <th scope="col">Sr No</th>
+                        <th scope="col">Technology Stack</th>
+                        <th scope="col">Rating</th>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>HTML</td>
+                        <td>4</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>CSS</td>
+                        <td>4</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>JavaScript</td>
+                        <td>4</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>Angular</td>
+                        <td>3</td>
+                    </tr>
+                </tbody>
+            </table>
+            <br>
+            <!--Project Section-->
+        </section>
+        <hr>
+        <section id="projects">
+            <h2 class="heading">&nbsp;Project Details </h2>
+            <hr>
+            <br>
+            <strong>&nbsp;Name:</strong> &nbsp; <strong><u>Student Management</u></strong><br>
+            <br>
+            <strong><u>&nbsp;Environment:</u></strong> &nbsp; Angular 8, TypeScript, JavaScript
+            (ES6), HTML5, CSS, Bootstrap, GitHub, Desktop GitHub, Agile and JIRA,
+            IDE-VS Code <br>
+            <br>
+            <strong>&nbsp;Team Size: 06</strong> &nbsp;&nbsp;<strong>Duration:</strong>
+            2021-1<sup>st</sup>- July till <u>present</u><br>
+            <br>
+            <strong>&nbsp;Project Description:</strong> This project is mainly used for
+            student management in college, where it help to manage student record
+            like<br>
+            &nbsp;student registration, student update information and to see all his or her
+            academic activities like score card, attendance.<br>
+            <br>
+            <hr>
+            <h2 class="heading">&nbsp;Roles and Responsibilities:</h2>
+            <ul>
+                <li>Designed and implemented user interface using HTML5 and CSS</li>
+                <li>Work closely with backend developers for code integration</li>
+                <li>Identifying and troubleshooting issues with front end code</li>
+                <li>Worded on GIT as version control</li>
+                <li>Used JIRA for bug tracking</li>
+                <li>
+                    Implemented project using Agile SCRUM methodology, involved in daily
+                    stand up meetings, spring showcase and sprint retrospective
+                </li>
+                <li>Involved in fixing technical issues</li>
+            </ul>
+        </section>
+        <hr>
+        <section>
+            &copy; 2024 Amitkumar, Inc. All Rights Reserved.
+        </section>
+    </section>
+</body>
+
+</html>
