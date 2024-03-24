@@ -1,99 +1,148 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        p{
+        p {
             border: 5px solid cadetblue;
         }
-        #one{
+
+        #one {
             font-size: larger;
             padding: 30px;
             width: 200px;
             box-sizing: content-box;
         }
-        
-        #two{
+
+        #two {
             font-size: larger;
             padding: 30px;
             width: 200px;
             box-sizing: border-box;
         }
-        #three{
-font-size: 30px;
+
+        #three {
+            font-size: 30px;
         }
-        #four{
-font-size: 30px;
+
+        #four {
+            font-size: 30px;
         }
-        #para1{
-            font-size: 1em; /* 1*30= 30px */
+
+        #para1 {
+            font-size: 1em;
+            /* 1*30= 30px */
         }
-        #para2{
-            font-size: 1rem; /* 16px is the default font size of parent HTML Element */
+
+        #para2 {
+            font-size: 1rem;
+            /* 16px is the default font size of parent HTML Element */
         }
-        .table{
+
+        .table {
             width: 50%;
             margin: 10px;
             border: 2px solid cadetblue;
             border-collapse: collapse;
             margin-bottom: 30px;
-           }
-         th, td, tr{
+        }
+
+        th,
+        td,
+        tr {
             border: 2px solid cadetblue;
             border-collapse: collapse;
             padding: 10px;
-          
-         }  
+
+        }
+        #home li{
+            list-style-type: square;
+            padding: 10px;
+        }
+        .ul li::marker{
+            content: "✍️";
+        }
     </style>
 </head>
+
 <body>
     <p id="one">Project Section</p>
     <p id="two">Professional Summary</p>
     <div id="three">
-<p id="para1">Paragraph One</p>
-    </div >
+        <p id="para1">Paragraph One</p>
+    </div>
     <div id="four">
-<p id="para2">Paragraph Two</p>
+        <p id="para2">Paragraph Two</p>
     </div>
 
     <section>
         <hr>
         <section id="techStack">
-          <h2 class="heading">Technology Stack</h2>
-          <table class="table">
-            <tbody>
-              <tr>
-                <th scope="col">Sr No</th>
-                <th scope="col">Technology Stack</th>
-                <th scope="col">Rating</th>
-              </tr>
-              <tr>
-                <td>1</td>
-                <td>HTML</td>
-                <td>4</td>
-              </tr>
-              <tr>
-                <td>2</td>
-                <td>CSS</td>
-                <td>4</td>
-              </tr>
-              <tr>
-                <td>3</td>
-                <td>JavaScript</td>
-                <td>4</td>
-              </tr>
-              <tr>
-                <td>4</td>
-                <td>Angular</td>
-                <td>3</td>
-              </tr>
-            </tbody>
-          </table>
-          <hr>
+            <h2 class="heading">Technology Stack</h2>
+            <table class="table">
+                <tbody>
+                    <tr>
+                        <th scope="col">Sr No</th>
+                        <th scope="col">Technology Stack</th>
+                        <th scope="col">Rating</th>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>HTML</td>
+                        <td>4</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>CSS</td>
+                        <td>4</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>JavaScript</td>
+                        <td>4</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>Angular</td>
+                        <td>3</td>
+                    </tr>
+                </tbody>
+            </table>
+            <hr>
         </section>
-    </section>
-        </body>
-</html>
+        <!--List changing style type (Square, bullet etc)-->
+        <section id="home">
+            <h2 class="heading">Professional Summary</h2>
+            <ul class="ul">
+                <li>
+                    Having 1 year of experience in developing Single page Web Applications
+                    using <span class="skills">Angular 8, HTML5, CSS3, Bootstrap5, JavaScript, TypeScript</span>
+                </li>
 
+                <li>
+                    Experience on working with version control system - <span class=" tools">GIT &amp; GitHub</span>
+                </li>
+                <li>Experience working with JIRA for user stories and bug tracking</li>
+                <li>
+                    Strong Debugging &amp; Troubleshooting code experience using Chrome
+                    Developer Tool
+                </li>
+                <li>Working Experience on ID's like <span class=" tools">VS Code &amp; Notepad++</span></li>
+                <li>Good working experience under Agile methodologies environment</li>
+                <li>
+                    Experience using Chrome Developer Tool for debugging &amp;
+                    Troubleshooting the code
+                </li>
+                <li>Knowledge of NodeJS</li>
+                <li>Ability to work with people at all levels in the program</li>
+            </ul>
+            <!--Technology Stack Section-->
+        </section>
+        <hr>
+    </section>
+</body>
+
+</html>
