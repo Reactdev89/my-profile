@@ -125,6 +125,7 @@ font-weight: bold;
 th,
 td,
 tr {
+    margin-top: 20px;
     margin-bottom: 20px;
     margin-left: 10px;
     border: 2px solid orange;
@@ -162,7 +163,9 @@ td {
 .projD::selection {
     background-color: lightgreen;
 }
-
+#rolesResp{
+    margin-top: 20px;
+}
 .roles {
     list-style-type: lower-alpha;
 }
