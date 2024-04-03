@@ -9,9 +9,14 @@
 /* Header Section */
 
 .header {
-    background-color:black;
+    width: 100%;
+   background-color:black;
    padding: 8px;
    margin-bottom: 10px;
+   position: fixed;
+   z-index: 1;
+   margin-top: -10px;
+  
 }
 
 .infoIcons {
@@ -45,6 +50,12 @@
 #navSection{
     text-align: right;
     margin-bottom: 10px;
+    margin-top: -5px;
+    position: fixed;
+    top: 60px;
+    right: 50px;
+    z-index: 1;
+   
 }
 
 #navSection li{
@@ -78,6 +89,8 @@ font-weight: bold;
 #container{
     width: 900px;
     margin:10px auto;
+    position: relative;
+    top:80px;
 }
 .heading {
     color: crimson;
@@ -176,8 +189,25 @@ td {
 
 }
 
+/* Social Icons */ 
+
+.socialIcons{
+    position: fixed;
+    right: 30px;
+    bottom: 20px;
+    position: fixed;
+   }
+   #whatsApp{
+    margin-right: 15px;
+   }
+
+
 /* Footer Section */
 
+.footer{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
 .footer i {
     padding-right: 5px;
     color: crimson;
@@ -191,4 +221,6 @@ td {
 
 .copyRight {
     font-family: "Poppins", sans-serif;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
